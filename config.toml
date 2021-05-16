@@ -1,0 +1,4 @@
+baseURL = "https://kazettique.github.io/"
+languageCode = "en-us"
+title = "Woody's Blog"
+theme = "PaperMod"
