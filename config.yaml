@@ -1,0 +1,218 @@
+baseURL: "https://kazettique.github.io/"
+languageCode: tw
+title: Woody's Blog
+theme: PaperMod
+# enableEmoji: true
+# copyright: Everything is mine # copyright custom message
+
+defaultContentLanguage: tw
+
+disableLanguages:
+  - en
+  - jp
+
+languages:
+  en:
+    languageName: "English"
+    languageAltTitle: English
+    title: Woody's Blog
+    weight: 1
+    menu:
+      main:
+        # - name: Archive
+        #   url: archives
+        #   weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Categories
+          url: categories/
+          weight: 10
+
+    homeInfoParams:
+      enabled: true
+      title: Howdy, I'm Woody 👋
+      imageUrl: "https://avatars.githubusercontent.com/u/42999338?v=4"
+      imageTitle: avatar images
+      imageWidth: 200
+      imageHeight: 200
+      content: I'm a front-end engineer exploring around with React, Vue and Angular in the gorgeous JavaScript world. =]
+      # subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+
+  tw:
+    languageName: "繁體中文"
+    languageAltTitle: English
+    title: Woody's Blog
+    weight: 2
+    menu:
+      main:
+        # - name: 封存
+        #   url: archives
+        #   weight: 5
+        - name: 搜尋
+          url: search/
+          weight: 10
+        - name: 標籤
+          url: tags/
+          weight: 10
+        - name: 類別
+          url: categories/
+          weight: 10
+
+    homeInfoParams:
+      enabled: true
+      title: 哈囉～我是 Woody 👋
+      imageUrl: "https://avatars.githubusercontent.com/u/42999338?v=4"
+      imageTitle: avatar images
+      imageWidth: 200
+      imageHeight: 200
+      content: 我是在寬廣的 Javascript 世界裡探索 React、Vue 及 Angular 的前端工程師 =]
+      # subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+
+  jp:
+    languageName: "日本語"
+    languageAltTitle: Japan
+    weight: 2
+    title: Woody's Blog
+    menu:
+      main:
+        # - name: アーカイブ
+        #   url: archives
+        #   weight: 5
+        - name: 検索
+          url: search/
+          weight: 10
+        - name: タグ
+          url: tags/
+          weight: 10
+        - name: カテゴリ
+          url: categories/
+          weight: 10
+
+    homeInfoParams:
+      enabled: true
+      title: こんにちは、Woodyです 👋
+      imageUrl: "https://avatars.githubusercontent.com/u/42999338?v=4"
+      imageTitle: avatar images
+      imageWidth: 200
+      imageHeight: 200
+      content: 広いJavascriptの世界で React、VueとAngularを勉強しています =]
+      # subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# theme config
+params:
+  author: Woody Chang
+
+  defaultTheme: auto # to switch between dark or light according to browser theme
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true # show table of contents
+  TocOpen: true # keep table of contents open by default
+  # comments: false
+  # images: ["papermod-cover.png"]
+
+  # homeInfoParams:
+  #   Title: Howdy, I'm Woody 👋
+  #   Content: I'm a front-end engineer playing around with React, Vue and Angular in the gorgeous JavaScript world. =]
+  #   subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+  #   buttons:
+  #     - name: Blog
+  #       url: posts
+  #     - name: Tags
+  #       url: tags
+
+  socialIcons: # optional
+    - name: github
+      url: https://github.com/kazettique
+    - name: linkedin
+      url: https://www.linkedin.com/in/woody-chang-508b38150/
+    - name: instagram
+      url: https://www.instagram.com/kazettique/
+    - name: email
+      url: mailto:kazettique@gmail.com
+
+  # label:
+  #     text: "Home"
+  #     icon: icon.png
+  #     iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+  # assets:
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
