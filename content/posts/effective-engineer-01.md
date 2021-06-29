@@ -1,7 +1,7 @@
 ---
 title: "第一章：專注在高效的活動"
 date: 2021-06-26T13:29:11+08:00
-draft: true
+draft: false
 tags:
   - developer
   - 軟體開發
