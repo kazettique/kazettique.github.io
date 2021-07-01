@@ -31,6 +31,9 @@ languages:
         - name: Categories
           url: categories/
           weight: 10
+        # - name: About
+        #   url: about/
+        #   weight: 10
 
     homeInfoParams:
       enabled: true
@@ -61,10 +64,13 @@ languages:
         - name: 類別
           url: categories/
           weight: 10
+        # - name: 關於
+        #   url: about/
+        #   weight: 10
 
     homeInfoParams:
       enabled: true
-      title: 哈囉～我是 Woody 👋
+      title: 嗨嗨～我是 Woody 👋
       imageUrl: "https://avatars.githubusercontent.com/u/42999338?v=4"
       imageTitle: avatar images
       imageWidth: 200
@@ -91,6 +97,9 @@ languages:
         - name: カテゴリ
           url: categories/
           weight: 10
+        # - name: 私について
+        #   url: about/
+        #   weight: 10
 
     homeInfoParams:
       enabled: true
@@ -122,19 +131,9 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowToc: true # show table of contents
-  TocOpen: true # keep table of contents open by default
+  TocOpen: false # keep table of contents open by default
   # comments: false
   # images: ["papermod-cover.png"]
-
-  # homeInfoParams:
-  #   Title: Howdy, I'm Woody 👋
-  #   Content: I'm a front-end engineer playing around with React, Vue and Angular in the gorgeous JavaScript world. =]
-  #   subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-  #   buttons:
-  #     - name: Blog
-  #       url: posts
-  #     - name: Tags
-  #       url: tags
 
   socialIcons: # optional
     - name: github
@@ -180,6 +179,8 @@ taxonomies:
   category: categories
   tag: tags
   series: series
+
+math: true
 
 markup:
   goldmark:
