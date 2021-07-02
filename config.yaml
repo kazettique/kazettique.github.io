@@ -180,8 +180,6 @@ taxonomies:
   tag: tags
   series: series
 
-math: true
-
 markup:
   goldmark:
     renderer:
