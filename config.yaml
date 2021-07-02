@@ -31,9 +31,9 @@ languages:
         - name: Categories
           url: categories/
           weight: 10
-        # - name: About
-        #   url: about/
-        #   weight: 10
+        - name: About
+          url: about/
+          weight: 0
 
     homeInfoParams:
       enabled: true
@@ -42,7 +42,7 @@ languages:
       imageTitle: avatar images
       imageWidth: 200
       imageHeight: 200
-      content: I'm a front-end engineer exploring around with React, Vue and Angular in the gorgeous JavaScript world. =]
+      content: I'm a front-end engineer exploring around with React, Vue and Angular in the gorgeous JavaScript world. 🙃
       # subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
 
   tw:
@@ -64,9 +64,9 @@ languages:
         - name: 類別
           url: categories/
           weight: 10
-        # - name: 關於
-        #   url: about/
-        #   weight: 10
+        - name: 關於
+          url: about/
+          weight: 0
 
     homeInfoParams:
       enabled: true
@@ -75,7 +75,7 @@ languages:
       imageTitle: avatar images
       imageWidth: 200
       imageHeight: 200
-      content: 我是在寬廣的 Javascript 世界裡探索 React、Vue 及 Angular 的前端工程師 =]
+      content: 我是在寬廣的 Javascript 世界裡探索 React、Vue 及 Angular 的小小前端工程師 🙃
       # subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
 
   jp:
@@ -97,9 +97,9 @@ languages:
         - name: カテゴリ
           url: categories/
           weight: 10
-        # - name: 私について
-        #   url: about/
-        #   weight: 10
+        - name: 私について
+          url: about/
+          weight: 0
 
     homeInfoParams:
       enabled: true
@@ -108,7 +108,7 @@ languages:
       imageTitle: avatar images
       imageWidth: 200
       imageHeight: 200
-      content: 広いJavascriptの世界で React、VueとAngularを勉強しています =]
+      content: 広いJavascriptの世界でReact、VueとAngularを勉強しています 🙃
       # subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
 
 outputs:
@@ -161,7 +161,8 @@ params:
   #     apple_touch_icon: "<link / abs url>"
   #     safari_pinned_tab: "<link / abs url>"
 
-  # cover:
+  cover:
+    responsiveImages: true
   #     hidden: true # hide everywhere but not in structured data
   #     hiddenInList: true # hide on list pages and home
   #     hiddenInSingle: true # hide on single page
