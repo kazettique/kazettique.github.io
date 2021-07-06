@@ -23,4 +23,4 @@ tags:
 
 Not working hard, but working SMART!
 
-![working-smart](/images/working-smart.jpg)
+![working-smart](/images/meme/working-smart.jpg)

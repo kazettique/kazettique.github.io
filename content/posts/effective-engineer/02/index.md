@@ -57,7 +57,7 @@ Edmond 將學習比喻成複利：
 
 複利的曲線如下：
 
-![growth-curve](/images/growth-curve.jpg)
+![growth-curve](./images/growth-curve.jpg)
 
 可以回想一下，我們是不是時常花時間在做毫無挑戰、無趣、沒意義的事情上？這其實對學習的效率並不好，我們失去了**增進學習效率**及**未來成長**的機會。[^1]
 
