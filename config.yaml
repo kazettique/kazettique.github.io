@@ -7,6 +7,9 @@ theme: PaperMod
 
 defaultContentLanguage: tw
 
+# disqus
+disqusShortname: kazettique
+
 disableLanguages:
   - en
   - jp
@@ -132,7 +135,7 @@ params:
   ShowCodeCopyButtons: true
   ShowToc: true # show table of contents
   TocOpen: false # keep table of contents open by default
-  # comments: false
+  comments: true
   # images: ["papermod-cover.png"]
 
   socialIcons: # optional
